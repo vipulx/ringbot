@@ -52,8 +52,21 @@ esp32_camera:
 switch:
   - platform: gpio
     pin: GPIO4
-    name: "Door Lock"
-    id: door_lock
+    name: "Flash"
+    id: cam_flash
+
+  - platform: gpio
+    pin: GPIO12
+    name: "ringbot_Lock"
+    id: ringbot_lock
+
+# binary_sensor:
+#   - platform: gpio
+#     pin: GPIO16
+#     name: "ringbot_pir"
+#     id: ringbot_pir
+#     device_class: motion
+
 
  # Telegram Bot
 # telegram_bot:
@@ -64,3 +77,4 @@ switch:
 # Status Light
 status_led:
   pin: GPIO33
+
