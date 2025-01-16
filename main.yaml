@@ -18,7 +18,7 @@ logger:
 api:
 
 
-//
+//OTA Configuration for Witeless Programming
 ota:
 - platform: esphome
   password: "12345678"
