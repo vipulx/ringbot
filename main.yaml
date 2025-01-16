@@ -1,11 +1,14 @@
+// Baord Configuration 
 esphome:
   name: door-lock
   platform: ESP32
   board: esp32cam
 
+
+// Wifi Configuration
 wifi:
-  ssid: "Wifi"
-  password: "Pass"
+  ssid: "SSID"
+  password: "PASSWORD"
 
 captive_portal:
 
