@@ -14,8 +14,11 @@ captive_portal:
 
 logger:
 
+// Api Creation
 api:
 
+
+//
 ota:
 - platform: esphome
   password: "12345678"
